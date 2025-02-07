@@ -27,16 +27,17 @@
  * as a command-line argument
  */
 fun main(args: Array<String>) {
-    if (args.isEmpty) {
-        printBottles(99)
-    } else {
-        try {
-            printBottles(args[0].toInt())
-        } catch (e: NumberFormatException) {
-            println("You have passed '${args[0]}' as a number of bottles, " +
-                    "but it is not a valid integer number")
-        }
-    }
+    // if (args.isEmpty) {
+    //     printBottles(99)
+    // } else {
+    //     try {
+    //         printBottles(args[0].toInt())
+    //     } catch (e: NumberFormatException) {
+    //         println("You have passed '${args[0]}' as a number of bottles, " +
+    //                 "but it is not a valid integer number")
+    //     }
+    // }
+    println("Hello!!!!")
 }
 
 fun printBottles(bottleCount: Int) {
